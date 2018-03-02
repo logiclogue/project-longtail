@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/logiclogue/project-longtail/issues"
   },
-  "homepage": "https://github.com/logiclogue/project-longtail#readme"
+  "homepage": "https://github.com/logiclogue/project-longtail#readme",
+  "dependencies": {
+    "metalsmith": "^2.3.0",
+    "node-sass": "^4.7.2",
+    "pug": "^2.0.0-rc.4"
+  }
 }
