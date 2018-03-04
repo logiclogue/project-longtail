@@ -1,4 +1,5 @@
 const Metalsmith = require("metalsmith");
+const collections = require("metalsmith-collections");
 
 Metalsmith(__dirname)
     .metadata({
@@ -6,6 +7,9 @@ Metalsmith(__dirname)
     })
     .source("./src")
     .destination("./build")
+    .use(collections({
+        
+    }))
     .build(error => {
         if (error) {
             throw error;
