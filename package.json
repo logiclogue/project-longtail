@@ -22,6 +22,7 @@
     "metalsmith-layouts": "^2.1.0",
     "metalsmith-markdown": "^0.2.2",
     "node-sass": "^4.7.2",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "tailwindcss": "^0.4.3"
   }
 }
